@@ -40,13 +40,16 @@ export default defineConfig({
     {
       name: 'chromium',
       use: {'browserName':'chromium', channel:'chrome',
-       //headless:false,
+       headless:false,
         viewport:null,
         launchOptions:{
-          args:['--start-maximized']
+          args:['--start-maximized'],
+          
         }
       },
-    }
+       testDir: './tests',
+    },
+    
     // {
     //   name: 'chromium',
     //   use: { ...devices['Desktop Chrome'],
