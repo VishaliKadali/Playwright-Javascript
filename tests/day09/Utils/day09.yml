@@ -1,0 +1,12 @@
+Classroom:
+Login With SalesForce application
+Load the url  :https://login.salesforce.com/?locale=in
+Enter username
+Enter password
+click on Login
+
+Username : dilip@testleaf.com, vidyar@testleaf.com
+password : Leaf@123                  Sales@123
+
+Both Json and CSV
+

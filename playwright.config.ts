@@ -28,7 +28,7 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
   headless:false,
-  video: 'on',
+  video: 'off',
   screenshot: 'on',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     //trace: 'on-first-retry',
@@ -40,6 +40,7 @@ export default defineConfig({
     {
       name: 'chromium',
       use: {'browserName':'chromium', channel:'chrome',
+       //headless:false,
         viewport:null,
         launchOptions:{
           args:['--start-maximized']
