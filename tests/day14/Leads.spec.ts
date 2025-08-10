@@ -1,8 +1,6 @@
-import {fixtures} from './CustomeFixture.spec'
+import { fixtures } from './CustomeFixture';
 
-fixtures("Login fixture in use", async({login})=>{
-
-    await login.click("text=CRM/SFA")
-    console.log(await login.title())
-    
-})
+fixtures("Login fixture in use", async ({ login }) => {
+  await login.click("text=CRM/SFA");
+  console.log(await login.title());
+});
