@@ -4,9 +4,9 @@ import dotenv from 'dotenv'
 //read multiple env file
 const fileRead=process.env.envfile || 'QA' 
 //const fileRead=process.env.envfile||'QA'
-
+//const fileRead=process.env.envfile||'QA'||'Prod'
 //$env:envFile="QA"
-//$env:envFile="prod"
+//$env:envFile="Prod"
 
 //set path of env file
 dotenv.config({path:`Utils/${fileRead}.env`})

@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 
 
 //set path of env file
-dotenv.config({path:`Utils/prod.env`})
+dotenv.config({path:`Utils/Prod.env`})
 
 test("Read From ENV file",async({page})=>{
 

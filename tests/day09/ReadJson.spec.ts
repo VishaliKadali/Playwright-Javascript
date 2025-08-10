@@ -1,4 +1,4 @@
-import test from '@playwright/test'
+import {test} from '@playwright/test'
 //read from the json file
 import data from './Utils/LoginValue.json'
 
