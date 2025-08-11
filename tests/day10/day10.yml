@@ -1,0 +1,21 @@
+Load the url : https://login.salesforce.com/?locale=in
+Enter username : dilip@testleaf.com
+Enter password : Leaf@123
+click on Login
+
+Case1: 
+click App launcher
+click on Services
+click on Accounts
+Click on new
+
+Test Runner:
+Test Annotation: configure the behaviour of the test
+test.only -> run the test which is marked as only
+test.skip -> test will not run
+test.fail -> mark test as expected to fail
+test.fixme -> mark test as not ready yet (not ready for execution)
+test.use -> override context (browser context)
+test.info -> It shows the additional information about your test
+test.describe -> group your tests
+
