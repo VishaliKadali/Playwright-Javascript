@@ -9,5 +9,5 @@ test("Storage state", async({page})=>{
 
 
     //Storage of information
-    await page.context().storageState({path:"Utils/LoginStorage.json"})
+    await page.context().storageState({path:"utils/LoginStorage.json"})
 })
