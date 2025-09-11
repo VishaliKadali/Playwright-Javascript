@@ -1,7 +1,7 @@
 import { test, expect, chromium, firefox } from "@playwright/test";
 
 test.describe("Red Bus and Flipkart Navigation Tests", () => {
-  test("Red Bus in Edge Browser", async () => {
+  test("Red Bus in Edge Browser", async (browser) => {
     // Launch Edge browser
     const edgeBrowser = await chromium.launch({ channel: 'msedge' });
     const edgeContext = await edgeBrowser.newContext();
@@ -12,7 +12,7 @@ test.describe("Red Bus and Flipkart Navigation Tests", () => {
 
     // Get and print page title and URL
     const redBusTitle = await edgePage.title();
-    const redBusUrl = await edgePage.url();
+    const redBusUrl = edgePage.url();
     console.log(`Red Bus Page Title: ${redBusTitle}`);
     console.log(`Red Bus Page URL: ${redBusUrl}`);
 

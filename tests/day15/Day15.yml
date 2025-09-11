@@ -7,5 +7,20 @@ Agenda:
 https://github.com/microsoft/playwright-mcp
 
 Week8-Day1
-Encapsulation
+-Encapsulation
+Hiding the data or implementation 
+
+class Data{
+private age:number
+
+
+get value(){
+return this.age
+}
+}
+const ob=new Data()
+-Wrapper Methods
+-CI Integrations
+
+
 
