@@ -19,7 +19,7 @@ test.skip("Test Annotation Skip", async({page})=>{
 })
 
 test.fail("Test Annotation fail", async({page})=>{
-    await page.goto("https:www.facebook.com")
+    await page.goto("https://www.facebook.com")
 })
 
 test.fixme("Test Annotation fixme", async({page})=>{

@@ -16,7 +16,7 @@ test("Handle Frame",async({page})=>{
 
    //based on index 
    const firstFrame=allFrame[1]
-console.log("Before frame :"+await firstFrame.locator("#Click").innerText())
+   console.log("Before frame :"+await firstFrame.locator("#Click").innerText())
 
    await firstFrame.locator("#Click").click()
 

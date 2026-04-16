@@ -1,34 +1,26 @@
-let empName:string
-empName='Testleaf'
+export {};
 
-console.log(empName)
+let empName: string;
+empName = 'Testleaf';
 
-let age :number
-age=36
-age=67
-console.log(age)
+console.log(empName);
 
-//const emp='Dilip'
-//const emp1:string
-//emp1=
+let age: number;
+age = 36;
+age = 67;
+console.log(age);
 
-let empNameList:string[]
-empNameList=["Dilip","Neha","Vijayalakshmi"]
+let empNameList: string[];
+empNameList = ["Dilip", "Neha", "Vijayalakshmi"];
 
-function add(a:number,b:number):number{
-
-    return a+b
+function sum(a: number, b: number): number {
+    return a + b;
 }
 
-console.log(add(4,6))
+console.log(sum(4, 6));
 
-// function data(empname:number,empId:string):string{
-//     return empname+" "+empId
-// }
-// console.log(data(37,'dilip'))
-
-
-function data(empname:string,empId:number):string{
-    return empname+" "+empId
+function getEmployeeData(empname: string, empId: number): string {
+    return empname + " " + empId;
 }
-console.log(data("Vishali",10))
+
+console.log(getEmployeeData("Vishali", 10));

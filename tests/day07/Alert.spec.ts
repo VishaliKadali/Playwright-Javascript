@@ -22,7 +22,7 @@ page.once('dialog',alertType=>{
 
    console.log(alertType.message())
 
-   alertType.accept()
+   alertType.accept();
 
 })
 
