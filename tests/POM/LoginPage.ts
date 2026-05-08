@@ -11,12 +11,12 @@ export class LoginPage{
         await this.page.goto("http://leaftaps.com/opentaps/control/main")
     }
 
-    async useerDetails(){
+    async userDetails(){
         await this.page.fill("#username","DemoSalesManager")
         await this.page.fill("#password","crmsfa")
     }
 
-    async cllickLogin(){
+    async clickLogin(){
         await this.page.click(".decorativeSubmit")
     }
 

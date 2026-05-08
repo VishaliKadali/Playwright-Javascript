@@ -1,13 +1,17 @@
-import { LoginPage } from "./LoginPage";
+import { WelcomePage } from "./WelcomePage";
 
-export class WelcomePage extends LoginPage{
+export class HomePage extends WelcomePage{
 
-async clickOnCrmsfa(){
-    await this.page.click("text=CRM/SFA")
-}
 
 async clickOnLogOut(){
     await this.page.click(".decorativeSubmit")
 }
 
+async clickOnLeads(){
+    await this.page.click("//a[text()='Leads']")
+}
+
+async clickOnContacts(){
+    await this.page.click("//a[text()='Contacts']")
+}
 }
