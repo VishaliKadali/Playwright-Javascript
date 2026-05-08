@@ -12,7 +12,7 @@ export class LoginPage{
     }
 
     async userDetails(){
-        await this.page.fill("#username","DemoSalesManager")
+        await this.page.fill("#username","democsr")
         await this.page.fill("#password","crmsfa")
     }
 

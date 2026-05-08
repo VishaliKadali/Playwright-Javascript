@@ -8,7 +8,7 @@ export const test=baseClass.extend<{login:any}>({
     //login -> custome fixture name
     login: async({page}, use)=>{
         await page.goto("http://leaftaps.com/opentaps/control/main")
-        await page.fill("#username","DemoSalesManager")
+        await page.fill("#username","democsr")
         await page.fill("#password","crmsfa")
         await page.click(".decorativeSubmit")
         await use(page)
