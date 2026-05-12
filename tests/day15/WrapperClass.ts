@@ -8,12 +8,22 @@ export abstract class playwrightWrapper{
     }
 
     async clearandType(locator:string,data:string){
+        try{
         const ele=this.page.locator(locator)
         await ele.clear()
         await ele.fill(data)
+        }
+        catch(error){
+            console.error('Error in clear and type method: ${error}');
+        }
+        
     }
 
     async typeValue(locator:string,data:string){
-        await this.page.locator(locator).fill(data)
+        try{
+            await this.page.locator(locator).fill(data)
+        } catch(error){
+            console.error(`Error in type value method: ${error}`);
+        }
     }
 }
