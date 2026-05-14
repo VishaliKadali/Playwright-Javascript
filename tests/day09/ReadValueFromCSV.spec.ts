@@ -6,7 +6,7 @@ import path from 'path';
 // Step 1: Read and parse CSV
 //const value=parse(fs.readFileSync(path.join(__dirname,"../../utils/LoginData.csv")),{columns:true})
 // const csvPath = path.resolve(__dirname, '../../utils/LoginData.csv');
-const csvPath = path.resolve(__dirname, '../../utils/LoginData.csv');
+const csvPath = path.resolve(__dirname, './Utils/LoginData.csv');
 const fileContent = fs.readFileSync(csvPath, 'utf8');
 
 const records = parse(fileContent, {
