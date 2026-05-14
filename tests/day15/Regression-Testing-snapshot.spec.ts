@@ -13,7 +13,7 @@ test.only('Visual integrattion', async({page})=>{
 
     await page.goto('https://www.testleaf.com/')
 
-    const ele=page.locator('#ds-shell ds-shell--bg')
+    const ele=page.locator('#name')
     const ss= await ele.screenshot()
     expect(ss).toMatchSnapshot();
 })
