@@ -7,6 +7,7 @@ class loginData{
     
     public get readUsername(){
         return this.username
+        console.log("checked is updated in VS")
     }
 }
 
