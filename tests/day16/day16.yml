@@ -2,3 +2,27 @@ Week8.day2
 
 -CI Integration
 -JIRA Integration
+-Geo Location
+-Grep
+-Framework
+
+Through Terminal
+-------------------------------
+Step1 ->  Open terminal and project folder 
+Step2 -> Initialize the git report
+          git init
+Step3 -> Check if you are connected to remote repo of yours 
+          git remote -v
+          it shows the repo as 
+PC C:\Users\DELL\Documents\PageObjectModel> git remote -v
+origin https://github.com/vidya1926/Framework_PW.git (fetch)
+origin https://github.com/vidya1926/Framework_PW.git (push)
+        --If not add your username and email
+        git config --global user.name "Your Name"
+        git config --global user.email "your email"
+
+Step4 -> Add the files to the repo
+          git add .
+
+
+    
