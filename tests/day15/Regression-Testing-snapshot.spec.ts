@@ -9,7 +9,7 @@ test('Visual integrattion testing', async({page})=>{
 
 // percy npm install --save-dev @percy/playwright
 
-test.only('Visual integrattion', async({page})=>{
+test.only('Visual integrattion Github fixes', async({page})=>{
 
     await page.goto('https://www.testleaf.com/')
 
