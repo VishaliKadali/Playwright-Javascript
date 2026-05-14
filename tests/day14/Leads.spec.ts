@@ -1,4 +1,4 @@
-import { test } from './customfixture.spec';
+import { test } from './customfixture';
 
 test("Login fixture in use", async ({ login }) => {
 

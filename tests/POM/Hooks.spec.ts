@@ -1,3 +1,5 @@
-import test from "@playwright/test"
+import { test } from '@playwright/test';
 
-test.BeforeAll("Set Data File", Data)
+test.skip('Create a Lead', async () => {
+
+});

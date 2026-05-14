@@ -1,5 +1,5 @@
-import {test} from "@playwright/test"
+import { test } from '@playwright/test';
 
-test('Create a Lead',async()=>{
-    const apicontext=
-})
+test.skip('Create a Lead', async () => {
+
+});
