@@ -5,7 +5,8 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/VishaliKadali/Playwright-Javascript.git'
+                git branch: 'main',
+                    url: 'https://github.com/VishaliKadali/Playwright-Javascript.git'
             }
         }
 
