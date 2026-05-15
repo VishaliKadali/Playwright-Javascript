@@ -7,7 +7,7 @@
 //     expect(ss).toMatchSnapshot();
 // })
 
-// // percy npm install --save-dev @percy/playwright
+// // percy npm in stall --save-dev @percy/playwright
 
 // test.only('Visual integrattion Github fixes', async({page})=>{
 
