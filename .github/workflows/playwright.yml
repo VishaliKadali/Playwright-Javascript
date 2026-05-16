@@ -7,7 +7,7 @@ on:
     branches: [main, master]
 
   schedule:
-    - cron: '14 45 * * *' # Runs daily at midnight
+    - cron: '14 45 * * *' # 45 minutes past 14:00 UTC (2:45 PM UTC)
 
 jobs:
   test:
